@@ -1,0 +1,45 @@
+
+.fondo{
+	background-image: url(./img/fondo.jpg);
+	background-size: cover;
+	/*Rellenamos el fondo con la imagen */
+}
+body {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Establecer la altura al 100% de la ventana */
+}
+
+.contenedor {
+	background-color: gray;
+    text-align: center; /* Centrar el contenido dentro del contenedor */
+    border: 5px solid rgba(71, 193, 62, 0.446);
+	border-radius: 25px;
+	padding: 20px;
+	margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
+}
+.boton{
+    border-radius: 10px; /* Ajusta el valor según el grado de redondeo que desees */
+    padding:  20px; /* Ajusta el espaciado interno según tus preferencias */
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+    background-color: #0056b3; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+    border: none; /* Elimina el borde del botón, si lo deseas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+	
+}
+.boton:hover {
+    background-color: #5278a0; /* Cambia el color de fondo cuando se pasa el cursor */
+}
+.parrafo{
+	
+	/* border-color: aquamarine; */
+	border-radius: 10px;
+	margin-top:10px;
+	border: 2px solid yellow;
+	background-color: rgba(250, 235, 215, 0.707);
+	font-size: 25px;
+	color: black;
+}
+
